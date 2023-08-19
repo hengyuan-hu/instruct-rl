@@ -31,6 +31,8 @@ python train.py --lmd 0
 
 ## The Hanabi Experiments
 
+### Prepare
+
 First build the C++ part of the repo if you want to train/evaluate models
 ```bash
 # under the root folder of the repo, compile
@@ -40,6 +42,7 @@ make
 # from using single thread as our code uses multi-threading internally to run
 # large number of environments in parallel
 # Add it to your bashrc for convenience
+export OMP_NUM_THREADS=1
 ```
 
 Download pretrained OBL models and fully trained models used in ICML paper.
@@ -51,6 +54,8 @@ unzip models.zip
 ```
 
 Or directly download from Google Drive: `https://drive.google.com/file/d/1Kko7L9zdS6ywCUs6VIaeCY32kGU1RZrz/view?usp=drive_link`
+
+### Run the code
 
 Then go to the `pyhanabi` folder to run the code.
 ```bash
@@ -77,7 +82,7 @@ python ppo_main.py --config configs/ppo.yaml
 python r2d2_main.py --config configs/iql.yaml
 ```
 
-Additional resources
+### Additional resources
 
 To evaluate a trained model
 ```bash
