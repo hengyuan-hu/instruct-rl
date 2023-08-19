@@ -1,0 +1,7 @@
+Instruction: If my partner told me the color of some of my cards, I should play those specific cards. Otherwise, I should hint color to my partner.
+
+Previously: {prev_action}.
+
+Question: Should I{curr_action}?
+
+Answer:

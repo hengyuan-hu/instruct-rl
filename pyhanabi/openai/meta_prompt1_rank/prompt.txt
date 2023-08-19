@@ -1,0 +1,7 @@
+Instruction: If my partner tells me the 'rank' of some of my cards, I should 'play' those specific cards. Otherwise, I may 'hint rank' to my partner. For example, if my partner tells me the 'color' of my cards, I should 'hint rank' to my partner.
+
+Previously: {prev_action}.
+
+Question: Should I{curr_action}?
+
+Answer:

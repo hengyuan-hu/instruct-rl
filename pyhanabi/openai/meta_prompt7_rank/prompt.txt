@@ -1,0 +1,7 @@
+Instruction: If my partner told me the rank of some of my cards, I should play those specific cards. Otherwise, I should hint rank to my partner.
+
+Previously: {prev_action}.
+
+Question: Should I{curr_action}?
+
+Answer:
