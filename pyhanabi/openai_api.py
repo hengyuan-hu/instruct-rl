@@ -355,7 +355,7 @@ def generate_full_prior(
     meta_inst, hist2lang, move2lang, mode
 ) -> dict[str, dict[str, tuple[str, float]]]:
     prompts, hist_move_prompts = generate_prompts(meta_inst, hist2lang, move2lang, mode=mode)
-    results = evaluate_yes_or_no(prompts, cache_file=cache_file, api_type="helm")
+    results = evaluate_yes_or_no(prompts, cache_file=cache_file, api_type="openai")
     check_match(prompts, results)
     hist_move_logit: dict[str, dict[str,tuple[str, float]]] = {}
     for hist, move_prompts in hist_move_prompts.items():
