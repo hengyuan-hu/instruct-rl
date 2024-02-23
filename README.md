@@ -46,14 +46,9 @@ export OMP_NUM_THREADS=1
 ```
 
 Download pretrained OBL models and fully trained models used in ICML paper.
-```bash
-# under instruct-rl root directory
-pip install gdown
-gdown https://drive.google.com/uc\?id\=1Kko7L9zdS6ywCUs6VIaeCY32kGU1RZrz
-unzip models.zip
 ```
-
-Or directly download from Google Drive: `https://drive.google.com/file/d/1Kko7L9zdS6ywCUs6VIaeCY32kGU1RZrz/view?usp=drive_link`
+https://drive.google.com/file/d/1KezlTZ86zP6hdWIKNlfStvchUATuyjkl/view?usp=sharing
+```
 
 ### Run the code
 
